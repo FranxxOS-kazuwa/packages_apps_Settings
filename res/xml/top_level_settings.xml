@@ -69,6 +69,15 @@
         settings:controller="com.android.settings.fuelgauge.TopLevelBatteryPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
+        android:fragment="com.franxx.settings.FranxxSettings"
+        android:icon="@drawable/ic_settings_franxx"
+        android:key="top_level_franxx"
+        android:order="-160"
+        android:title="@string/franxx_dashboard_title"
+        android:summary="@string/franxx_dashboard_summary"
+        settings:controller="com.franxx.settings.TopLevelFranxxSettingsPreferenceController"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.deviceinfo.StorageDashboardFragment"
         android:icon="@drawable/ic_storage_white"
         android:key="top_level_storage"

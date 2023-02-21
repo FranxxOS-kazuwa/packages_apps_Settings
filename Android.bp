@@ -53,10 +53,14 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: ["src/**/*.java", "src/**/*.kt","TakeControl/src/**/*.java",],
+
+    aaptflags: ["--extra-packages com.franxx.settings"],
+
     resource_dirs: [
         "res",
-        "TouchGestures/res"
+        "TouchGestures/res",
+        "TakeControl/res"
     ],
 
     static_libs: [
@@ -67,6 +71,8 @@ android_library {
         "androidx.core_core",
         "androidx.appcompat_appcompat",
         "androidx.cardview_cardview",
+        "androidx.fragment_fragment-ktx",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
         "androidx.preference_preference",
         "androidx.recyclerview_recyclerview",
         "androidx.window_window",
@@ -92,6 +98,7 @@ android_library {
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
         "Settings-change-ids",
+        "SettingsLibMainSwitchPreference",
         "custom-preference",
         "faceunlock_framework",
     ],
@@ -100,6 +107,10 @@ android_library {
         "telephony-common",
         "ims-common",
     ],
+
+    optimize: {
+        proguard_flags_files: ["proguard-core.flags"],
+    },
 }
 
 platform_compat_config {

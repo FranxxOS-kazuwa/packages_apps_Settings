@@ -1,0 +1,2 @@
+# TakeControl Software
+-keep class com.franxx.settings.**
