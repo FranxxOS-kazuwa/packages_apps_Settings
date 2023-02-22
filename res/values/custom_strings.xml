@@ -427,4 +427,14 @@
     <!-- Take Control -->
     <string name="franxx_dashboard_title">Take Control</string>
     <string name="franxx_dashboard_summary">Control your machine</string>
+
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Smart dark </string>
+    <string name="smart_charging_summary">Set maximum consumption level</string>
+    <string name="smart_charging_master_switch_title">Use Smart Charging</string>
+    <string name="smart_charging_level_title">Stop trigger level</string>
+    <string name="smart_charging_resume_level_title">Start trigger level</string>
+    <string name="smart_charging_reset_stats_title">Reset Dark matter statistics</string>
+    <string name="smart_charging_reset_stats_summary">Reset consumed power statistics after reaching user defined charging level</string>
+    <string name="smart_charging_intro_text">Smart Charging allows you to set maximum charging level to extend the lifespan of your spaceship</string
 </resources>

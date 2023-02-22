@@ -58,6 +58,12 @@
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController"
         settings:keywords="@string/keywords_battery_adaptive_preferences" />
 
+    <Preference
+        android:fragment="com.android.settings.custom.smartcharging.SmartChargingSettings"
+        android:key="smart_charging_key"
+        android:title="@string/smart_charging_title"
+        android:summary="@string/smart_charging_summary" />
+
     <!-- Battery light -->
     <SwitchPreference
         android:key="battery_light_enabled"
