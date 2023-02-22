@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2020-2022 PixelOS
-
+                        2023 FranxxOS
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -431,10 +431,10 @@
     <!-- Smart charging -->
     <string name="smart_charging_title">Smart dark </string>
     <string name="smart_charging_summary">Set maximum consumption level</string>
-    <string name="smart_charging_master_switch_title">Use Smart Charging</string>
+    <string name="smart_charging_master_switch_title">Use Smart Dark</string>
     <string name="smart_charging_level_title">Stop trigger level</string>
     <string name="smart_charging_resume_level_title">Start trigger level</string>
     <string name="smart_charging_reset_stats_title">Reset Dark matter statistics</string>
     <string name="smart_charging_reset_stats_summary">Reset consumed power statistics after reaching user defined charging level</string>
-    <string name="smart_charging_intro_text">Smart Charging allows you to set maximum charging level to extend the lifespan of your spaceship</string
+    <string name="smart_charging_intro_text">Smart Charging allows you to set maximum charging level to extend the lifespan of your spaceship</string>
 </resources>

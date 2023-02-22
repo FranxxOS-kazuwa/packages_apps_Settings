@@ -32,7 +32,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 
-import com.evolution.settings.preference.CustomSeekBarPreference;
+import com.franxx.settings.preferences.CustomSeekBarPreference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -85,7 +85,7 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.EVO_SETTINGS;
+        return MetricsEvent.CUSTOM;
     }
 
     @Override
