@@ -50,6 +50,17 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="power_key"
+        android:title="@string/hardware_keys_power_key_title" >
+
+        <Preference
+            android:key="power_menu"
+            android:title="@string/power_menu_title"
+            android:fragment="com.android.settings.franxx.buttons.PowerMenuActions" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="back_key"
         android:title="@string/hardware_keys_back_key_title" >
 

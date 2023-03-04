@@ -170,6 +170,7 @@
 
     <!-- Buttons -->
     <string name="button_pref_title">Buttons</string>
+    <string name="hardware_keys_power_key_title">Power button</string>
     <string name="hardware_keys_home_key_title">Home button</string>
     <string name="hardware_keys_back_key_title">Back button</string>
     <string name="hardware_keys_menu_key_title">Menu button</string>
@@ -437,4 +438,20 @@
     <string name="smart_charging_reset_stats_title">Reset Dark matter statistics</string>
     <string name="smart_charging_reset_stats_summary">Reset consumed power statistics after reaching user defined charging level</string>
     <string name="smart_charging_intro_text">Smart Charging allows you to set maximum charging level to extend the lifespan of your spaceship</string>
+
+    <!-- Power menu -->
+    <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_items_title">Power menu items</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_screenshot_summary">Long-press for partial screenshot</string>
+    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_users_title">User switcher</string>
+    <string name="power_menu_bug_report_title">Bug report</string>
+    <string name="power_menu_bug_report_devoptions_unavailable">Bug reporting is disabled as development settings aren\'t enabled</string>
+    <string name="power_menu_bug_report_unavailable_for_user">Bug reporting is disabled for non-primary users.</string>
+    <string name="power_menu_emergency_title">Emergency</string>
+    <string name="power_menu_devicecontrols_title">Device controls</string>
+    <string name="advanced">Advance</string>
+    <string name="power_menu_advanced_restart_title">Advanced restart</string>
+    <string name="power_menu_advanced_restart_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
 </resources>
